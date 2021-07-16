@@ -20,4 +20,4 @@
 ### **📋 Assignment**
 |주 차|기 간|내 용|
 |------|---|---|
-|1주차|2021.7.26(Mon) ~ 8.1(Sun)|오리엔테이션|
+|1주차|2021.7.26(Mon) ~ 8.1(Sun)|[오리엔테이션](https://github.com/kbubot/KBU_Front-End_Education/blob/main/Task/O.T.md)|
