@@ -17,8 +17,8 @@
 - 과제는 master 브랜치의 assignment에서 확인해요! 과제에 대한 제출은 submit 브랜치에 업데이트하고, 과제 제출 후 같이 리뷰하고 회고의 시간을 가져요!
 
 ---
-
 ### **📋 Assignment**
 |주 차|기 간|내 용|
 |------|---|---|
-|1주차|2021.7.26(Mon) ~ 8.1(Sun)|[오리엔테이션](https://github.com/kbubot/KBU_Front-End_Education/blob/main/Task/O.T.md)|
+|1주차|2021.7.26(Mon) ~ 7.31(Sat)|[오리엔테이션](https://github.com/kbubot/KBU_Front-End_Education/blob/main/Task/O.T.md)|
+|[2주차](https://github.com/kbubot/KBU_Front-End_Education/raw/main/Task/Task%201/1%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1%20a720439e99a14591824d06a8daccf1c0/Task1.gif)|2021.8.2(Mon) ~ 8.7(Sat)|[오리엔테이션](https://github.com/kbubot/KBU_Front-End_Education/blob/main/Task/O.T.md)|
