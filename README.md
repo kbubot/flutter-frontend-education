@@ -21,4 +21,4 @@
 |주 차|기 간|내 용|
 |------|---|---|
 |1주차|2021.7.26(Mon) ~ 7.31(Sat)|[오리엔테이션](https://github.com/kbubot/KBU_Front-End_Education/blob/main/Task/O.T.md)|
-|[2주차](https://github.com/kbubot/KBU_Front-End_Education/raw/main/Task/Task%201/1%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1%20a720439e99a14591824d06a8daccf1c0/Task1.gif)|2021.8.2(Mon) ~ 8.7(Sat)|[오리엔테이션](https://github.com/kbubot/KBU_Front-End_Education/blob/main/Task/O.T.md)|
+|[2주차](https://github.com/kbubot/KBU_Front-End_Education/raw/main/Task/Task%201/1%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1%20a720439e99a14591824d06a8daccf1c0/Task1.gif)|2021.8.2(Mon) ~ 8.7(Sat)|[Task 1](https://github.com/kbubot/KBU_Front-End_Education/blob/main/Task/Task%201/1%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1%20a720439e99a14591824d06a8daccf1c0.md)|
