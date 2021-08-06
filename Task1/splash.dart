@@ -2,17 +2,7 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 
-void main() => runApp(MyApp());
-
-class MyApp extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'navigator',
-      home: FirstPage(),
-    );
-  }
-}
+void main() => runApp(MaterialApp(home: FirstPage(),));
 
 class FirstPage extends StatefulWidget {
   const FirstPage({Key? key}) : super(key: key);
@@ -27,7 +17,7 @@ class _FirstPageState extends State<FirstPage> {
     super.initState();
     Timer(Duration(seconds: 5), () {
       Navigator.push(
-          context, MaterialPageRoute(builder: (context) => HomePage()));
+          context, MaterialPageRoute(builder: (context) => SecondPage()));
     });
   }
 
@@ -52,14 +42,14 @@ class _FirstPageState extends State<FirstPage> {
   }
 }
 
-class HomePage extends StatefulWidget {
-  const HomePage({Key? key}) : super(key: key);
+class SecondPage extends StatefulWidget {
+  const SecondPage({Key? key}) : super(key: key);
 
   @override
-  _HomePageState createState() => _HomePageState();
+  _SecondPageState createState() => _SecondPageState();
 }
 
-class _HomePageState extends State<HomePage> {
+class _SecondPageState extends State<SecondPage> {
   int _counter = 0;
 
   void _incrementCount() {
