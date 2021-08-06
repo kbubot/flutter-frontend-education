@@ -31,7 +31,6 @@ class _FirstPageState extends State<FirstPage> {
             Text(
               'splash screen',
               style: TextStyle(
-                  color: Colors.black,
                   fontSize: 30.0,
                   fontWeight: FontWeight.bold),
             )
@@ -53,15 +52,11 @@ class _SecondPageState extends State<SecondPage> {
   int _counter = 0;
 
   void _incrementCount() {
-    setState(() {
-      _counter++;
-    });
+    setState(() => _counter++);
   }
 
   void _decrementCount() {
-    setState(() {
-      _counter--;
-    });
+    setState(() => _counter--);
   }
 
   @override
@@ -83,17 +78,13 @@ class _SecondPageState extends State<SecondPage> {
             Text(
               '$_counter',
               style: TextStyle(
-                  color: Colors.black,
                   fontSize: 100.0,
                   fontWeight: FontWeight.bold),
             ),
             Row(
-              mainAxisAlignment: MainAxisAlignment.center,
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
-                Container(
-                  child: Padding(
-                    padding: const EdgeInsets.only(right: 40),
-                    child: RaisedButton(
+                RaisedButton(
                       child: Text(
                         "-",
                         style: TextStyle(color: Colors.white),
@@ -101,12 +92,8 @@ class _SecondPageState extends State<SecondPage> {
                       onPressed: _decrementCount,
                       color: Colors.red[400],
                     ),
-                  ),
-                ),
-                Container(
-                  child: Padding(
-                    padding: const EdgeInsets.only(left: 40),
-                    child: RaisedButton(
+
+                RaisedButton(
                       child: Text(
                         "+",
                         style: TextStyle(color: Colors.white),
@@ -114,8 +101,6 @@ class _SecondPageState extends State<SecondPage> {
                       onPressed: _incrementCount,
                       color: Colors.blue[400],
                     ),
-                  ),
-                )
               ],
             )
           ],
@@ -124,3 +109,4 @@ class _SecondPageState extends State<SecondPage> {
     );
   }
 }
+
