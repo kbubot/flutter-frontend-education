@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:untitled/widget/Button.dart';
 import 'package:math_expressions/math_expressions.dart';
@@ -68,44 +69,53 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.end,
           children: [
             Flexible(
-              child:
-                  Column(
-                    mainAxisAlignment: MainAxisAlignment.end,
-                    children: [
-                      Row(
-                        mainAxisAlignment: MainAxisAlignment.end,
-                        children: [
-                          Container(
-                            child: Padding(
-                              padding: EdgeInsets.fromLTRB(0, 0, 12, 100),
-                              child: Text(
-                                equation,
-                                style: TextStyle(
-                                  fontSize: 24,
-                                  color: Colors.black,
-                                ),
+              flex: 1,
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.end,
+                children: [
+                  Flexible(
+                    child: ListView(
+                      children: [
+                        Container(
+                          child: Padding(
+                            padding: EdgeInsets.fromLTRB(
+                              0,
+                              0,
+                              3,
+                              40,
+                            ),
+                            child: Text(
+                              equation,
+                              style: TextStyle(
+                                fontSize: 24,
+                                color: Colors.black,
                               ),
                             ),
-                            alignment: Alignment(1.0, 1.0),
                           ),
-                        ],
-                      ),
-                      Container(
-                        child: Padding(
-                          padding: EdgeInsets.all(12),
-                          child: Text(
-                            result,
-                            style: TextStyle(
-                              fontSize: 40,
-                              color: Colors.black,
-                            ),
+                          alignment: Alignment(1.0, 1.0),
+                        ),
+                      ],
+                    ),
+                    flex: 1,
+                  ),
+                  Flexible(
+                    child: Container(
+                      child: Padding(
+                        padding: EdgeInsets.all(12),
+                        child: Text(
+                          result,
+                          style: TextStyle(
+                            fontSize: 40,
+                            color: Colors.black,
                           ),
                         ),
-                        alignment: Alignment(1.0, 1.0),
                       ),
-                    ],
+                      alignment: Alignment(1.0, 1.0),
+                    ),
+                    flex: 2,
                   ),
-
+                ],
+              ),
             ),
             Flexible(
               flex: 2,
