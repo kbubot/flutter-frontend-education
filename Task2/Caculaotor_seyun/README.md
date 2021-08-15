@@ -1,5 +1,0 @@
-# Caculaotr
-
-Second Task Project
-
-
