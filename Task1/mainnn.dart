@@ -29,13 +29,14 @@ class _FirstPageState extends State<FirstPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Text("splash screen",
+
+        body: Center(child:Text("splash screen",
       style: TextStyle(
         fontSize:40.0,
         fontWeight: FontWeight.bold,
       )
 
-      )
+      ),)
 
     );
   }
@@ -49,7 +50,7 @@ class Counter extends StatefulWidget {
 }
 
 class _CounterState extends State<Counter> {
-  int count=0; //유아이에 표시될
+  int count=0; //유아이에 표시될 그거
   void increase(){
 
     setState(() {
@@ -72,13 +73,15 @@ class _CounterState extends State<Counter> {
       title: "첫 플러터 앱",
       home: Scaffold(
         appBar: AppBar(
-          title: Text("                           Flutter Tutorial"),
+          title: Text("Flutter Tutorial"),centerTitle: true,
         ),
-        body: Container(
-          padding: const EdgeInsets.all(100.0), // 전체적으로 100씩 패딩을 주었음.
+        body: Center(
+          
 
           child: Column(
             // 세로로 위젯을 배치
+            mainAxisAlignment:
+            MainAxisAlignment.center,
             children: <Widget>[
               Text(
                 "$count",
@@ -87,7 +90,7 @@ class _CounterState extends State<Counter> {
               Row(
                 // 가로로 위젯을 배치, 안에 버튼 2개가 들어가 있음.
                 mainAxisAlignment:
-                MainAxisAlignment.spaceEvenly, // 위젯끼리 같은 공간만큼 띄움
+                MainAxisAlignment.center, // 중간으로 슉슉
                 children: <Widget>[
                   RaisedButton(
                     child: Text(
