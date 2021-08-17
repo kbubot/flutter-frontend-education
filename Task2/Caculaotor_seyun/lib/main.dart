@@ -75,6 +75,8 @@ class _MyHomePageState extends State<MyHomePage> {
                 children: [
                   Flexible(
                     child: ListView(
+                      reverse: true,
+                      scrollDirection: Axis.horizontal,
                       children: [
                         Container(
                           child: Padding(
@@ -239,35 +241,35 @@ class _MyHomePageState extends State<MyHomePage> {
                         Flexible(
                             child: Button(
                           text: 'C',
-                          w: 70,
-                          h: 90,
+                          w: 90,
+                          h: 75,
                           callback: btnOnClick,
                         )),
                         Flexible(
                             child: Button(
                           text: '+',
-                          w: 70,
-                          h: 90,
+                          w: 90,
+                          h: 80,
                           callback: btnOnClick,
                         )),
                         Flexible(
                             child: Button(
                           text: '-',
-                          w: 70,
-                          h: 90,
+                          w: 90,
+                          h: 80,
                           callback: btnOnClick,
                         )),
                         Flexible(
                             child: Button(
                           text: '*',
-                          w: 70,
-                          h: 90,
+                          w: 90,
+                          h: 80,
                           callback: btnOnClick,
                         )),
                         Flexible(
                             child: Button(
                           text: '/',
-                          w: 70,
+                          w: 90,
                           h: 90,
                           callback: btnOnClick,
                         )),
