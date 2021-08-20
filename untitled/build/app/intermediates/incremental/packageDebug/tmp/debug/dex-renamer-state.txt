@@ -1,4 +1,0 @@
-#Fri Aug 13 18:06:17 KST 2021
-base.0=C\:\\Users\\issac\\Documents\\GitHub\\KBU_Front-End_Education\\untitled\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
-path.0=classes.dex
-renamed.0=classes.dex
