@@ -67,8 +67,9 @@ class MyAppState extends State<MyApp> {
                         children: [
                           Padding(
                             padding: const EdgeInsets.fromLTRB(0, 0, 0, 20),
-                            child:Container(height:30,child:Text('${bookstore[index%2]["book_name"]}',
-                                textAlign: TextAlign.left)),
+                            child:Container(height:30,
+                                child:Text('${bookstore[index%2]["book_name"]}',
+                            )),
                           ),
                           Padding(
                             padding: const EdgeInsets.only(left: 10),
