@@ -26,3 +26,4 @@
 |3주차|2021.8.9(Mon) ~ 8.14(Sat)|[Task 2](https://github.com/kbubot/KBU_Front-End_Education/blob/main/Task/Task%202/2%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1%209dfdd41447594a4480773e3abcb01b82.md)|
 |4주차|2021.8.16(Mon) ~ 8.21(Sat)|[Task 3](https://github.com/kbubot/KBU_Front-End_Education/blob/main/Task/Task%203/3%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1%20c2ddc604661344348aa10385b7653b03.md)|
 |5주차|2021.8.23(Mon) ~ 8.28(Sat)|[Task 4](https://github.com/kbubot/KBU_Front-End_Education/blob/main/Task/Task%204/4%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1%20e54b7a5946d24ff689b43738644e8052.md)|
+|6주차|2021.8.30(Mon) ~ 9.4(Sat)|[Task 5](https://github.com/kbubot/KBU_Front-End_Education/blob/main/Task/Task%205/5%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1%20e04897b1919c47838210faa5d254e0ae.md)|
