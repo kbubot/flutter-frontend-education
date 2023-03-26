@@ -1,4 +1,4 @@
-# KBU_Front-End_Education
+<h1 align="center"> Frontend-education</h1>
 
 ## 교육 레포지터지
 
